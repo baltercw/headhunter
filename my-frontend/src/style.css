@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 你要的自定義樣式可以寫這邊 */
+@layer components {
+  .input {
+    @apply w-full border border-gray-300 p-2 rounded;
+  }
+}
