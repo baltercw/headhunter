@@ -3,8 +3,8 @@ node_modules/
 */node_modules/
 
 # Root level files that shouldn't be here
-package.json
-package-lock.json
+/package.json
+/package-lock.json
 
 # Editor files
 .vscode/
