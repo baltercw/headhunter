@@ -2,7 +2,6 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Home from '../pages/Home.vue';
 import Login from '../pages/Login.vue';
-import HireForm from '../pages/HireForm.vue';
 import JobList from '../pages/JobList.vue';
 import JobDetail from '../pages/JobDetail.vue';
 import Profile from '../pages/Profile.vue';
@@ -17,7 +16,7 @@ import JobManagement from '../pages/Admin/JobManagement.vue';
 const routes = [
     { path: '/', component: Home }, // 當網址是 / 時，顯示 Home 頁面
     { path: '/login', component: Login },
-    { path: '/hire', component: HireForm },
+
     { path: '/jobs', component: JobList },
     { path: '/job/:id', component: JobDetail },
     { path: '/apply/:jobId', component: ApplyJob },

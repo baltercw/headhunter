@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 全域字體設定 */
+@layer base {
+  html {
+    font-family: 'Noto Sans TC', sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
 /* 你要的自定義樣式可以寫這邊 */
 @layer components {
   .input {

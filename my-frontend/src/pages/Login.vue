@@ -16,13 +16,13 @@
             </div>
 
             <div class="flex space-x-4">
-                <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded hover:bg-blue-600">
+                <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">
                     登入
                 </button>
 
                 <router-link
                     to="/register"
-                    class="w-full text-center bg-gray-500 text-white py-2 rounded hover:bg-gray-600"
+                    class="w-full text-center bg-blue-500 text-white py-2 rounded hover:bg-blue-600"
                 >
                     註冊
                 </router-link>

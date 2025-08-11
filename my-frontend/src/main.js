@@ -10,7 +10,7 @@ import axios from 'axios'
 const isDevelopment = import.meta.env.DEV
 axios.defaults.baseURL = isDevelopment 
   ? 'http://localhost:3000' 
-  : 'https://headhunter-production.up.railway.app'
+  : 'https://headhunter-production.up.railway.app' //後端railway網址
 axios.defaults.withCredentials = true 
 
 // 全域錯誤處理 - 自動處理 token 過期
