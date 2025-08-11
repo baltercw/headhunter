@@ -8,7 +8,7 @@ const app = express();
 // 解決跨網域需求
 app.use(cors({
     origin: process.env.NODE_ENV === 'production' 
-        ? ['https://your-frontend-url.vercel.app'] // 部署後的前端網址
+        ? ['https://headhunter-ochre.vercel.app'] // 部署後的前端網址
         : ['http://localhost:5173'], // 開發時的前端網址
     credentials: true
 }));
